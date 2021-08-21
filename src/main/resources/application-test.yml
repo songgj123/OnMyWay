@@ -1,0 +1,15 @@
+spring:
+  datasource:
+  url: jdbc:h2:mem:testdb
+  driverClassName: org.h2.Driver
+  username: sa
+  password:
+  enabled: false
+  h2.console.enabled: true
+
+bus:
+  apiURI: http://ws.bus.go.kr/api/rest/
+  serviceKey: 1Qdpjtl7XPHHEplcWuU5mhnot4jQTpRbyGs3ZKSjxh3NR5tdfP0LuZGgIarj8tq096W9PaQwieZ2v7fKiQyBDA==
+  getRouteInfoURI: ${bus.apiURI}/api/rest/busRouteInfo/getRouteInfo
+
+test: asdf
